@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+ 
+    <div class="outer">
+        <h1 style="color:pink">PASSWORD GENERATOR</h1>
+        <div  class="st"></div>
+        <input readonly placeholder="Password" class="dis">
+        <h2 id="plen">1</h2>
+        <input type="range" min="1" max="20" id="slider" step="1">
+    
+        <div class="allinputs">
+            <input class="in" type="checkbox" id="capi">
+            <label for="capi">ADD CAPITAL LETTER</label><br>
+    
+            <input class="in" type="checkbox" id="small">
+            <label for="small">ADD SMALL LETTER</label><br>
+    
+            <input class="in" type="checkbox" id="num">
+            <label for="num">ADD NUMBER</label><br>
+    
+            <input class="in" type="checkbox" id="sym">
+            <label for="sym">ADD SYMBOL</label><br>
+    
+           
+        </div>
+
+        <div class="second">
+            <button id="btn">GET RANDOM PASSOWORD</button>
+
+        </div>
+
+    
+     
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
